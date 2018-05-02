@@ -11,7 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     var centerOfCard:CGPoint!
+    var people = [UIView]()
     
+    @IBOutlet weak var person1: UIView!
+    @IBOutlet weak var person2: UIView!
+    @IBOutlet weak var person3: UIView!
+    @IBOutlet weak var person4: UIView!
     @IBOutlet weak var basicCard: UIView!
     @IBOutlet weak var likeImageView: UIImageView!
     
